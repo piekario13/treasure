@@ -11,7 +11,7 @@ var uzyskajLosowąLiczbę = function (rozmiar) {
 
 var obliczOdleglosc = function (zdarzenie, cel) {
     var roznicaX = zdarzenie.offsetX - cel.x;
-    var roznicaY = zdarzenie.offset - cel.y;
+    var roznicaY = zdarzenie.offsetY - cel.y;
     return Math.sqrt((roznicaX * roznicaX) + (roznicaY * roznicaY));
 };
 
